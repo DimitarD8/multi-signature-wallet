@@ -4,7 +4,7 @@ pragma solidity ^0.8.24;
 import {Script} from "forge-std/Script.sol";
 import {MultiSignatureWallet} from "../src/MultiSignatureWallet.sol";
 
-contract DeployMultySignatureWallet is Script {
+contract DeployMultiSignatureWallet is Script {
     function run() external returns (MultiSignatureWallet) {
         vm.startBroadcast();
 
